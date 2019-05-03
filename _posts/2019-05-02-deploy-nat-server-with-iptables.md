@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: CSDN blog转移
 title:  "通过iptables实现nat功能"
 date:   2019-05-02 00:03:20 +0800
 categories: liw update
