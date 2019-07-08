@@ -270,7 +270,7 @@ CNN模型学习，实现对mnist数据集的训练和识别。
 	    x = tf.placeholder('float', shape=[None, 784])
 	    y = tf.placeholder('float', shape=[None, 10])
 	
-	    predict_op = inference(x, y)
+	    predict_op = inference(x, 1.0)
 	    total_loss = loss(x, y)
 	    train_op = train(total_loss)
 	
